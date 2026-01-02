@@ -4,22 +4,25 @@
 
 Stage 2 translates the Stage 1 control baseline into **practical artefacts that teams can use during design, build, and review**.
 
-It answers:
+It answers the question:
 
-> How do teams implement the baseline controls in practice?
+> How can baseline GenAI controls be applied consistently in practice?
 
-This toolbox is intentionally **implementation-agnostic** and safe to share publicly.
+This toolbox is intentionally **implementation-agnostic** and designed for **broad reuse across organisations and environments**.
 
 ---
 
 ## What This Stage Provides
 
 For each control area, this stage includes:
-- intent
-- applicability
-- example artefacts
-- validation checklists
-- common failure patterns
+
+- control intent  
+- applicability guidance  
+- example artefacts  
+- validation checklists  
+- common failure patterns  
+
+These elements are intended to support **consistent interpretation and application** of the baseline controls defined in Stage 1.
 
 ---
 
@@ -34,36 +37,33 @@ Ensure GenAI systems are deployed only for approved, understood purposes.
 All GenAI systems.
 
 **Example Artefacts**
-- Use-case description
-- Intended users
-- Prohibited uses
-- Risk classification
+- Use-case description  
+- Intended users  
+- Prohibited uses  
+- Risk classification  
 
 **Validation Checklist**
 - Is the use-case documented?
 - Are prohibited uses explicit?
-- Is scope aligned with architecture?
+- Is scope aligned with the declared system architecture?
 
 **Common Failures**
-- “General assistant” with no boundaries
-- Scope expanding post-deployment
+- “General assistant” with no defined boundaries  
+- Scope expanding after deployment without review  
 
 ---
 
-## What Is Deliberately Excluded
+## Scope Boundary
 
-- Runtime enforcement mechanisms  
-- Execution logic  
-- Policy engines  
-- Incident runbooks  
+This stage focuses on **documentation, design-time artefacts, and review guidance**.
 
-These belong to internal implementation and consulting work.
+Tool-specific implementations, runtime enforcement mechanisms, and operational procedures are **out of scope** and must be designed in accordance with organisational context and risk profile.
 
 ---
 
 ## Intended Use
 
-- Engineering onboarding
-- Product design
-- Security reviews
-- Consistent internal documentation
+- Engineering onboarding  
+- Product and system design  
+- Security and risk reviews  
+- Consistent internal documentation across teams  
