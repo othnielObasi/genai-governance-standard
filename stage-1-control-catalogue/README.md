@@ -2,7 +2,7 @@
 
 ## Overview
 
-This catalogue defines a **vendor-neutral baseline of security and governance controls for Generative AI systems** across their full lifecycle.
+This catalogue defines a **vendor-neutral baseline of security and governance controls for Generative AI systems** across their full lifecycle, from initial design through deployment, operation, and retirement.
 
 It answers a single question:
 
@@ -19,7 +19,13 @@ OWASP explains the GenAI security landscape; this catalogue defines the baseline
 
 ## Control Domains
 
+The following control domains represent **minimum expectations** for GenAI systems intended for production use.  
+All domains are applicable unless explicitly justified otherwise.
+
+---
+
 ### 1. Use-Case & Scope Definition
+
 GenAI systems must have:
 - a clearly documented purpose
 - defined intended users
@@ -30,6 +36,7 @@ Unbounded systems inevitably drift into unsafe or unintended use.
 ---
 
 ### 2. Architecture Classification
+
 Systems must declare whether they are:
 - prompt-only
 - retrieval-augmented (RAG)
@@ -37,11 +44,12 @@ Systems must declare whether they are:
 - tool-integrated
 - composite
 
-Risk and autonomy differ materially by architecture.
+Risk, autonomy, and failure modes differ materially by architecture.
 
 ---
 
 ### 3. Data & Knowledge Governance
+
 Systems must:
 - document data sources
 - classify sensitive data
@@ -52,6 +60,7 @@ Most GenAI failures are data failures, not model failures.
 ---
 
 ### 4. Prompt & Behaviour Integrity
+
 System behaviour must be:
 - intentionally designed
 - resistant to instruction drift
@@ -62,6 +71,7 @@ Prompting alone is not governance.
 ---
 
 ### 5. Testing & Evaluation
+
 Systems must be tested for:
 - misuse
 - bias
@@ -73,6 +83,7 @@ Untested autonomy is unmanaged risk.
 ---
 
 ### 6. Deployment & Release Controls
+
 Production deployment must require:
 - explicit approval
 - version tracking
@@ -83,6 +94,7 @@ Uncontrolled releases amplify failure impact.
 ---
 
 ### 7. Monitoring & Governance
+
 Systems must:
 - be observable
 - support investigation
@@ -94,7 +106,10 @@ If behaviour cannot be reconstructed, it cannot be governed.
 
 ## Intended Use
 
-- Internal AI standards
-- Design and architecture reviews
-- Audit preparation
-- Reference baseline for implementation
+This catalogue is intended to support:
+
+- organisational GenAI standards and policy development
+- design and architecture reviews
+- security, risk, and audit preparation
+- consistent baseline expectations across teams
+- reference alignment for further implementation guidance
