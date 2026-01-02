@@ -18,7 +18,7 @@ It defines structural concerns and responsibilities without prescribing implemen
 GenAI systems should not be relied upon to self-govern.
 
 Effective governance requires that:
-- decision authority is external to the model
+- decision authority is not solely embedded within the model
 - constraints are evaluated prior to execution
 - system behaviour is observable by default
 
@@ -28,7 +28,7 @@ These principles apply regardless of model, vendor, or deployment environment.
 
 ## Reference Architecture Domains
 
-The following domains represent **common structural concerns** that must be addressed to support enforceable governance in GenAI systems.
+The following domains represent **common structural concerns** that must be addressed to support egovernable operation in GenAI systems.
 
 They are not components, products, or services, but **conceptual responsibilities** that may be realised in different ways.
 
