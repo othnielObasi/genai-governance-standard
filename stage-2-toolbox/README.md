@@ -1,4 +1,5 @@
-# Stage 2 — Practical GenAI Control Toolbox (Open Core)
+# Stage 2 — Practical GenAI Control Toolbox
+
 
 ## Overview
 
