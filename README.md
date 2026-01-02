@@ -11,7 +11,6 @@ It is intended for:
 
 This work is **vendor-neutral**, **architecture-aware**, and designed to support **safe, reviewable, and auditable GenAI deployments**.
 
-> We publish the standards. We consult on enforcement.
 
 ---
 
@@ -21,6 +20,11 @@ This work is **vendor-neutral**, **architecture-aware**, and designed to support
 - [Stage 2 — Practical Control Toolbox (Open Core)](./stage-2-toolbox/)
 - [Stage 3 — Sovereign / Chain-of-Trust Architecture](./stage-3-architecture/)
 - [Production Readiness Standard](./production-standard/)
+  
+## Relationship to OWASP and Standards
+- [Relationship to OWASP](./RELATIONSHIP_TO_OWASP.md)
+- [Standards Alignment (ASVS, NIST AI RMF)](./STANDARDS_ALIGNMENT.md)
+- [FAQ: Why not just use OWASP?](./FAQ_OWASP.md)
 
 ---
 
@@ -31,10 +35,6 @@ This repository focuses on:
 - **How teams can implement controls in practice**
 - **How systems should be architected to enforce governance**
 
-It does **not** include:
-- Runtime enforcement implementations
-- Policy engines or DSLs
-- Incident runbooks
-- Organisation-specific thresholds
-
-Those are intentionally reserved for internal and consulting work.
+## Out of scope
+This repository focuses on baseline controls, practical artefacts, and conceptual architecture.
+Tool-specific implementations, runtime enforcement logic, and operational runbooks are intentionally out of scope and must be designed and validated in accordance with organisational context and risk profile.
