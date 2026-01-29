@@ -70,5 +70,5 @@ Tool-specific implementations, runtime enforcement mechanisms, and operational p
 - Consistent internal documentation across teams
 
 
->> Next - - [Stage 3 — GenAI Governance Reference Architecture](https://github.com/othnielObasi/genai-governance-standard/edit/main//stage-3-architecture/)
+>> Next - [Stage 3 — GenAI Governance Reference Architecture](https://github.com/othnielObasi/genai-governance-standard/edit/main//stage-3-architecture/)
 
