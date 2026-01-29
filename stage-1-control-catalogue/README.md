@@ -116,5 +116,5 @@ This catalogue is intended to support:
 
 
 
->> [Stage 2 — Practical Control Toolbox (Open Core)](./stage-2-toolbox/)
+>> Next - [Stage 2 — Practical Control Toolbox (Open Core)](./stage-2-toolbox/)
 
