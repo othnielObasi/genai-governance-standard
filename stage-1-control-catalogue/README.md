@@ -114,5 +114,6 @@ This catalogue is intended to support:
 - consistent baseline expectations across teams
 - reference alignment for further implementation guidance
 
+
 >> [Stage 2 — Practical Control Toolbox (Open Core)](./stage-2-toolbox/)
 
