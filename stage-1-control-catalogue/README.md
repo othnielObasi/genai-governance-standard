@@ -116,5 +116,6 @@ This catalogue is intended to support:
 
 
 
->> Next - [Stage 2 — Practical Control Toolbox (Open Core)](./stage-2-toolbox/)
+>> Next - [Stage 2 — Practical Control Toolbox (Open Core)](https://github.com/othnielObasi/genai-governance-standard/tree/main/stage-2-toolbox)
+
 
