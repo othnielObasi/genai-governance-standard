@@ -95,11 +95,6 @@ Uncontrolled releases amplify failure impact.
 
 ### 7. Monitoring & Governance
 
-
-- [Stage 2 — Practical Control Toolbox (Open Core)](./stage-2-toolbox/)
-
-
-
 Systems must:
 - be observable
 - support investigation
@@ -118,3 +113,6 @@ This catalogue is intended to support:
 - security, risk, and audit preparation
 - consistent baseline expectations across teams
 - reference alignment for further implementation guidance
+
+>> [Stage 2 — Practical Control Toolbox (Open Core)](./stage-2-toolbox/)
+
